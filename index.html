@@ -1,0 +1,182 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Document</title>
+    <style>
+        #website {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            background-image: linear-gradient(TO LEFT bottom, RGB(6, 2, 0), rgb(68, 15, 11));
+            width: 98.9vw;
+            height: 200vh;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+
+#for-text-and-img{
+    justify-content: space-evenly;
+
+}
+
+        .directionrow {
+            display: flex;
+            flex-direction: row;
+            width: 98.9vw;
+
+        }
+
+
+        .directioncol {
+            display: flex;
+            flex-direction: column;
+            width: 98.9vw;
+
+        }
+
+
+        .endstart {
+            justify-content: flex-end;
+
+        }
+
+        .atmid {
+            justify-content: center;
+        }
+
+
+        .dropdown-toggle{
+            color: white;
+        }
+        
+.nav-item{
+    color: yellow;
+}
+
+.large-text{
+    font-size: 7rem;
+}
+
+    </style>
+</head>
+
+<body>
+    <div id="website">
+        <nav class="navbar navbar-expand-lg navbar-brand  mt-5 container-fluid">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">
+                    <h1 class="text-white">LOGO</h1>
+                </a>
+
+                <div class="collapse navbar-collapse atmid " id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item dropdown  me-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span> Dropdown</span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown me-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="  endstart">
+                    <button class="btn  rounded-pill" type="submit"> <span class="text-white">Search </button>
+                    <button class="btn btn-outline-light  rounded-pill" type="submit">Search</button>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div id="for-text-and-img" class="row container-fluid  justify-content-left flex">
+            <h1 class=" text-white w-100 font-weight-bold large-text ">Streamlined Operations
+                <div class="row">Maximized Revenue
+                    <div class="col"> <img src="studingimg.jfif" style="transform: scale(1.1);" class="rounded-pill align-items-center pt-5 ps-2" height="70%" width="65%" alt="">
+                    </div>
+                </div>
+        </div>
+        <div id="for button and text" class="container-fluid">
+            <div class="row ">
+                <div class=" col-8 text-start">
+                    <button class="rounded-pill btn-danger " width="w-100">
+                        <samp class="text-white">get stard</samp>
+                    </button>
+                </div>
+                <div class=" col-4 text-start">
+                    <P class="fs-6 text-white ps-3 ">Simplify, Amplify Profits: Your Path to Effortless<br> Business Success!
+                    </P>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
